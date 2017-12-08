@@ -1,0 +1,17 @@
+.bg {
+    width: 20%;
+    background-image: url("../images/background-knee.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.video {
+    width: 40%;
+}
+
+span {
+    display: inline-block;
+}
