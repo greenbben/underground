@@ -7,8 +7,11 @@
     <script>
         function closePopup() {
             var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-            console.log("done");
+            popup.classList.remove("show");
+        }
+        function openPopup() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.add("show");
         }
     </script>
         
@@ -17,7 +20,7 @@
 	    <h2>December 15th at 7PM</h2><br>
             5885 Winfield Blvd.<br>
             San Jose, CA 95123
-            <div onClick="closePopup()">close</div>
+            <div onClick="closePopup()" style="color: blue;">close</div>
         </span>
 
         <div class="gym" onclick="close()"></div>
