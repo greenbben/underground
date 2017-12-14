@@ -12,13 +12,7 @@
         }
     </script>
         
-        <span class="popuptext show" id="myPopup">
-            <h1>Come to the Grand Opening!!!</h1><br>
-	    <h2>December 15th at 7PM</h2><br>
-            5885 Winfield Blvd.<br>
-            San Jose, CA 95123
-            <div onClick="closePopup()">close</div>
-        </span>
+  <span class="popuptext show" id="myPopup">A Simple Popup! <div onClick="closePopup()">close</div></span>
 
         <div class="gym" onclick="close()"></div>
         <h1 class="signup">CLASSES ARE FILLING UP FAST SO SIGN UP TODAY</h1>
